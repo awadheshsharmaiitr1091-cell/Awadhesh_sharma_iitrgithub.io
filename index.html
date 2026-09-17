@@ -1,1 +1,186 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dr. Awadhesh Sharma | Structural Engineering | IIT Roorkee</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #0f2b48;
+      --secondary: #0284c7;
+      --bg: #f8fafc;
+      --card-bg: #ffffff;
+      --text: #1e293b;
+      --text-muted: #64748b;
+      --border: #e2e8f0;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+    header {
+      background: linear-gradient(135deg, var(--primary), #1e3a8a);
+      color: #ffffff;
+      padding: 60px 20px 40px;
+      text-align: center;
+    }
+    .header-container { max-width: 900px; margin: auto; }
+    h1 { font-size: 2.2rem; font-weight: 700; margin-bottom: 8px; }
+    .subtitle { font-size: 1.1rem; color: #93c5fd; margin-bottom: 16px; }
+    .motto { font-size: 0.95rem; font-style: italic; color: #cbd5e1; margin-bottom: 24px; }
+    .links-bar {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 12px;
+    }
+    .badge {
+      background: rgba(255, 255, 255, 0.12);
+      border: 1px solid rgba(255, 255, 255, 0.25);
+      color: #fff;
+      padding: 8px 16px;
+      border-radius: 9999px;
+      text-decoration: none;
+      font-size: 0.85rem;
+      font-weight: 500;
+      transition: all 0.2s ease;
+    }
+    .badge:hover { background: var(--secondary); border-color: var(--secondary); }
+    main { max-width: 900px; margin: 40px auto; padding: 0 20px; }
+    section {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 28px;
+      margin-bottom: 28px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+    }
+    h2 {
+      font-size: 1.3rem;
+      color: var(--primary);
+      border-bottom: 2px solid var(--border);
+      padding-bottom: 8px;
+      margin-bottom: 18px;
+    }
+    .tag-grid { display: flex; flex-wrap: wrap; gap: 8px; }
+    .tag {
+      background: #eff6ff;
+      color: #1d4ed8;
+      border: 1px solid #bfdbfe;
+      padding: 6px 12px;
+      border-radius: 6px;
+      font-size: 0.85rem;
+      font-weight: 500;
+    }
+    ul.item-list { list-style: none; }
+    ul.item-list li {
+      padding: 12px 0;
+      border-bottom: 1px solid #f1f5f9;
+    }
+    ul.item-list li:last-child { border-bottom: none; }
+    .item-title { font-weight: 600; color: #0f172a; }
+    .item-desc { color: var(--text-muted); font-size: 0.9rem; margin-top: 2px; }
+    .pub-item { margin-bottom: 16px; }
+    .pub-title { font-weight: 600; color: #0f172a; }
+    .pub-journal { color: #0369a1; font-size: 0.9rem; font-style: italic; }
+    .pub-authors { color: var(--text-muted); font-size: 0.85rem; }
+    footer {
+      text-align: center;
+      padding: 30px 20px;
+      font-size: 0.85rem;
+      color: var(--text-muted);
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="header-container">
+      <h1>Dr. Awadhesh Sharma</h1>
+      <p class="subtitle">Postdoctoral Fellow | Department of Civil Engineering, IIT Roorkee</p>
+      <p class="motto">"श्रमं विना न किमपि साध्यम्"</p>
+      <div class="links-bar">
+        <a href="https://scholar.google.com/citations?user=J8u2kqYAAAAJ" target="_blank" class="badge">Google Scholar</a>
+        <a href="https://orcid.org" target="_blank" class="badge">ORCID</a>
+        <a href="https://linkedin.com" target="_blank" class="badge">LinkedIn</a>
+        <a href="https://www.researchgate.net/profile/Awadhesh-Sharma-7" target="_blank" class="badge">ResearchGate</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section>
+      <h2>About Me</h2>
+      <p>
+        I am a Postdoctoral Fellow in the Department of Civil Engineering at the Indian Institute of Technology Roorkee (IIT Roorkee). My research specializes in advanced cementitious composites, particularly Ultra-High-Performance Fiber-Reinforced Concrete (UHPFRC), fracture mechanics, fatigue behavior, and full-field non-destructive damage diagnostics.
+      </p>
+    </section>
+
+    <section>
+      <h2>Research Domains & Core Expertise</h2>
+      <div class="tag-grid">
+        <span class="tag">Ultra-High-Performance Concrete (UHPC/UHPFRC)</span>
+        <span class="tag">Fracture Mechanics & Size Effect</span>
+        <span class="tag">Fatigue Characterization</span>
+        <span class="tag">Digital Image Correlation (DIC)</span>
+        <span class="tag">Acoustic Emission (AE) Monitoring</span>
+        <span class="tag">Abaqus FEA (CDP Modeling)</span>
+        <span class="tag">Particle Packing Density Optimization</span>
+      </div>
+    </section>
+
+    <section>
+      <h2>Selected Publications</h2>
+      <div class="pub-item">
+        <div class="pub-title">Characterization of crack-bridging and size effect on ultra-high performance fibre reinforced concrete under fatigue loading</div>
+        <div class="pub-journal">International Journal of Fatigue (2024)</div>
+        <div class="pub-authors">B. Kumar, A. Sharma, S. Ray</div>
+      </div>
+      <div class="pub-item">
+        <div class="pub-title">Physio-chemical, mechanical and fracture analysis of ultra-high-performance cementitious composite</div>
+        <div class="pub-journal">Magazine of Concrete Research (2024)</div>
+        <div class="pub-authors">A. Sharma, M. A. Iqbal, S. Ray</div>
+      </div>
+      <div class="pub-item">
+        <div class="pub-title">An analytical approach for characterizing the fracture behaviour of ultra-high-performance fibre reinforced concrete</div>
+        <div class="pub-journal">Composite Structures (2024)</div>
+        <div class="pub-authors">B. Kumar, A. Sharma, S. Ray</div>
+      </div>
+      <div class="pub-item">
+        <div class="pub-title">Modified Brazilian Test for studying crack initiation and fracture behavior in SFRC using DIC & AE</div>
+        <div class="pub-journal">Construction and Building Materials (2026)</div>
+        <div class="pub-authors">V. W. Masih, G. Ruiz, S. T. Maganty, A. Sharma, S. Ray, et al.</div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Experience & Education</h2>
+      <ul class="item-list">
+        <li>
+          <div class="item-title">Postdoctoral Fellow & Research Associate</div>
+          <div class="item-desc">Indian Institute of Technology Roorkee | Department of Civil Engineering</div>
+        </li>
+        <li>
+          <div class="item-title">Ph.D. in Structural Engineering</div>
+          <div class="item-desc">Indian Institute of Technology Roorkee</div>
+        </li>
+        <li>
+          <div class="item-title">Former Assistant Professor</div>
+          <div class="item-desc">JECRC University (2015 – 2017)</div>
+        </li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Dr. Awadhesh Sharma · Department of Civil Engineering, IIT Roorkee</p>
+  </footer>
+
+</body>
+</html>
